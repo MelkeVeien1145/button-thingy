@@ -1,5 +1,7 @@
 .btn-hidden {
     opacity: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(68deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
 }
 
 body {
