@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+
 button {
     background: rgb(2,0,36);
     background: linear-gradient(68deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
     border-radius: 7.59325762958px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-color: white;
+    font-family: "Oooh Baby", cursive;
+    color: white;
 }
 
 .btn-hidden {
@@ -15,5 +19,5 @@ body {
 }
 
 h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Oooh Baby", cursive;
 }
