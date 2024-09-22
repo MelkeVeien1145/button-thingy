@@ -13,3 +13,7 @@ body {
     background: rgb(253,213,29);
     background: linear-gradient(90deg, rgba(253,213,29,1) 20%, rgba(69,252,238,1) 80%);
 }
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
