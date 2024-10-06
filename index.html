@@ -10,11 +10,23 @@
     <h1>eik babelubba</h1>
     <button id="btn"><strong>Eik</strong></button>
 
+    <button id="btn-2"><strong>Eik 2</strong></button>
+
     <script>
         const btn = document.querySelector("#btn")
+        const btn2 = document.querySelector("#btn-2")
+
         btn.addEventListener("click",()=>{
             console.log("Eik")
             btn.setAttribute("class","btn-hidden")
+            btn2.removeAttribute("class","btn-hidden")
+        })
+
+        
+        btn2.addEventListener("click",()=>{
+            console.log("Eik")
+            btn2.setAttribute("class","btn-hidden")
+            btn.removeAttribute("class","btn-hidden")
         })
     </script>
 

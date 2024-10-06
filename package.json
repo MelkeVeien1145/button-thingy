@@ -1,0 +1,7 @@
+{
+    "name": "button-thingy",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "npx http-server -p 9999 ."
+    }
+}

@@ -6,7 +6,14 @@ button {
     border-radius: 7.59325762958px;
     border-color: white;
     font-family: "Oooh Baby", cursive;
+    font-size: 4rem;
+    padding-inline: 2rem;
+    padding-block: 0.5rem;
     color: white;
+
+    &:hover {
+        background: linear-gradient(68deg, rgba(2,0,36,1) 0%, rgba(255,165,0,1) 100%);
+    }
 }
 
 .btn-hidden {
@@ -20,4 +27,9 @@ body {
 
 h1 {
     font-family: "Oooh Baby", cursive;
+    font-size: 5rem;
+}
+
+#btn-2 {
+    font-size: 4rem;
 }
